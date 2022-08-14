@@ -9,6 +9,8 @@ body {
     flex-direction: column;
 }
 
+
+/* Header and Hero */
 .header {
     background-color: #1f2937;
     display: flex;
@@ -73,8 +75,11 @@ button {
     background-color: #3882f6;
     color: white;
     padding: 10px 30px;
+    border-radius: 10px;
 }
 
+
+/* Information Section */
 .content {
     margin: 100px;
 }
@@ -92,7 +97,7 @@ button {
 .info {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
     flex-wrap: wrap;
 }
 
@@ -102,7 +107,6 @@ button {
 }
 
 .card img {
-    /* width: 20vw; */
     width: 300px;
     border-radius: 25px;
     border: 5px solid #3882f6;
@@ -116,11 +120,27 @@ button {
 
 
 
-.quote-section {
+.container {
     background-color: #e5e7eb;
     color: #1f2937;
-    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
     /* light italic */
+    font-size: 36px;
+    align-items: center;
+    
+}
+
+.quote {
+    width: 50vw;
+} 
+
+.quote-credit {
+    width: 55vw;
+  text-align: end;
+  font-weight: bold;
 }
 
 
