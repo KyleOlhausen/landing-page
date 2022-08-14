@@ -1,3 +1,9 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,16 +13,16 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 50px 200px;
+
 }
 
 .header-links {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
-.logo-text {
+.logo {
     color: #f9faf8;
     font-size: 24px;
 }
@@ -35,12 +41,25 @@ a {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 150px 200px;
 }
 
-.hero-text {
+.hero .left {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    align-items: flex-start;
+}
+
+.image {
+    max-height: 350px;
+   width: 40vw;
+}
+
+.content {
+    display: flex;
+
 }
 
 .main-text {
@@ -52,12 +71,24 @@ a {
 button {
     background-color: #3882f6;
     color: white;
+    padding: 10px 30px;
 }
 
 .info-header {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+.info-img img{
+    width: 200px;
+    border-radius: 25px;
+    border: 5px solid #3882f6;
 }
 
 .quote-section {
@@ -75,10 +106,6 @@ button {
 
 
 
-img {
-    width: 150px;
-    height: auto;
-}
 
 
 
